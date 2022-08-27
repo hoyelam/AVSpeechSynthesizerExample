@@ -14,6 +14,8 @@
 		17F6245B28BA50FC0036DE0E /* AVSpeechSynthesizerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6245A28BA50FC0036DE0E /* AVSpeechSynthesizerExampleTests.swift */; };
 		17F6246528BA50FC0036DE0E /* AVSpeechSynthesizerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6246428BA50FC0036DE0E /* AVSpeechSynthesizerExampleUITests.swift */; };
 		17F6246728BA50FC0036DE0E /* AVSpeechSynthesizerExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6246628BA50FC0036DE0E /* AVSpeechSynthesizerExampleUITestsLaunchTests.swift */; };
+		17F6247428BA510C0036DE0E /* SpeechSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6247328BA510C0036DE0E /* SpeechSynthesizer.swift */; };
+		17F6247628BA51210036DE0E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6247528BA51210036DE0E /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		17F6246028BA50FC0036DE0E /* AVSpeechSynthesizerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVSpeechSynthesizerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F6246428BA50FC0036DE0E /* AVSpeechSynthesizerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVSpeechSynthesizerExampleUITests.swift; sourceTree = "<group>"; };
 		17F6246628BA50FC0036DE0E /* AVSpeechSynthesizerExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVSpeechSynthesizerExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17F6247328BA510C0036DE0E /* SpeechSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizer.swift; sourceTree = "<group>"; };
+		17F6247528BA51210036DE0E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			children = (
 				17F6244928BA50FB0036DE0E /* AVSpeechSynthesizerExampleApp.swift */,
 				17F6244B28BA50FB0036DE0E /* ContentView.swift */,
+				17F6247328BA510C0036DE0E /* SpeechSynthesizer.swift */,
 				17F6244D28BA50FC0036DE0E /* Assets.xcassets */,
 				17F6244F28BA50FC0036DE0E /* Preview Content */,
+				17F6247528BA51210036DE0E /* ContentViewModel.swift */,
 			);
 			path = AVSpeechSynthesizerExample;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F6247628BA51210036DE0E /* ContentViewModel.swift in Sources */,
 				17F6244C28BA50FB0036DE0E /* ContentView.swift in Sources */,
 				17F6244A28BA50FB0036DE0E /* AVSpeechSynthesizerExampleApp.swift in Sources */,
+				17F6247428BA510C0036DE0E /* SpeechSynthesizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
